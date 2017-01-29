@@ -18,14 +18,14 @@ def draw_square():
     brad.shape("turtle")
     brad.color("yellow")
     brad.speed(2)
-
+    
 #方块四边循环
     time = 1
     while time < 5:
         brad.forward(100)
         brad.right(90)
         time = time + 1
-        
+    
 def draw_circle():
 #调整圆的属性
     angie = turtle.Turtle()
